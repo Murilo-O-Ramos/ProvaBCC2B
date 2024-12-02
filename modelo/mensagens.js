@@ -88,4 +88,5 @@ export default class Mensagem{
         const mensagemDAO = new MensagemDAO();
         return await mensagemDAO.consultar(termo);
     }
+    
 }

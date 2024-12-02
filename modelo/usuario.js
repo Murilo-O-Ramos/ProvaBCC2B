@@ -103,4 +103,5 @@ export default class Usuario{
         const usuarioDAO = new UsuarioDAO();
         return await usuarioDAO.verificarSenha(this.nickname, this.senha);
     }
+    
 }

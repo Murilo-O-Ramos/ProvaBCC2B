@@ -103,4 +103,5 @@ export default class UsuarioDAO {
         liberarConexao(conexao);
         return linhas.length > 0;
     }
+    
 }

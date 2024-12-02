@@ -12,3 +12,4 @@ rota.get("/", mensagemCTRL.consultar)
 
 export default rota;
 
+

@@ -25,4 +25,5 @@ export default async function conectarBanco() {
 export function liberarConexao(conexao) {
     global.poolConexoes.releaseConnection(conexao);
     conexao.release();
+    
 }

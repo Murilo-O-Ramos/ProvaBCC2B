@@ -23,4 +23,5 @@ app.use('/mensagem', rotaMensagens);
 
 app.listen(port, host, () => {
     console.log(`Servidor iniciado na porta ${port}`);
+    
 })
