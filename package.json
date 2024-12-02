@@ -1,11 +1,14 @@
 {
   "name": "backendbcc2b",
+  "homepage": "http://Murilo-O-Ramos.github.io/ProvaBCC2B",
   "version": "1.0.0",
   "description": "Backend avaliação LP2 2B",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/RenatoFernandoSilvaGoncalves/BackendBCC2B/issues"
   },
-  "homepage": "https://github.com/RenatoFernandoSilvaGoncalves/BackendBCC2B#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
